@@ -1,0 +1,486 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:#6c6b6b;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+header{
+    width:100%;
+    height: 70px;
+    background-color:#EC715F;
+}
+.header-contents{
+    width:1024px;
+    margin:0 auto;
+    height:70px;
+    background-color:#EC715F;
+}
+.header-logo{
+    height:70px;
+    width:180px;
+    float:left;
+}
+.nav-bar{
+    float:right;
+}
+.nav-list{
+    display:inline-block;
+    padding-right:30px;
+    line-height:70px;
+    font-size:16px;
+    color:#FAFAFA;
+}
+.main-visual{
+    width:100%;
+    height: 650px;
+    text-align:center;
+    background-image:url(img/mv.png);
+    background-size: cover;
+}
+.main-visual-contents{
+    padding-top:200px;
+}
+.main-visual-contents h1{
+    font-size:64px;
+    color:#FAFAFA;
+}
+.main-visual-contents p{
+    margin-top:10px;
+    font-size:20px;
+    color:#FAFAFA;
+}
+.main2{
+    width:100%;
+    height:auto;
+    background-color:#ECEFF1;
+}
+.portfolio{
+    width:920px;
+    margin:0 auto;
+    text-align:center;
+}
+.portfolio h1{
+    padding-top:90px;
+    padding-bottom:8px;
+    font-size:32px;
+    color:#000000;
+    display: inline-block;
+    position:relative;
+}
+.portfolio h1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:0px;/*線の上下位置*/
+    display: inline-block;
+    width: 70px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color:#EC715F;/*線の色*/
+  }
+.portfolio p{
+    margin-top:30px;
+    font-size:16px;
+    color:#000000;
+    margin-bottom:20px;
+}
+.image{
+    width:100%;
+    margin-top:20px;
+    padding-bottom:90px;
+}
+.instagram-box {
+float: left;
+width: 300px;
+height:250px;
+background-size: cover;
+background-position: center;
+margin-top:10px;
+}
+.instagram-box:nth-child(1) {
+background-image: url(img/sketch.jpg);
+margin-right:10px;
+}
+.instagram-box:nth-child(2) {
+background-image: url(img/websuku.png);
+margin-right:10px;
+}
+.instagram-box:nth-child(3) {
+background-image: url(img/write.jpg);
+}
+.instagram-box:nth-child(4) {
+background-image: url(img/webcamp.png);
+margin-right:10px;
+}
+.instagram-box:nth-child(5) {
+background-image: url(img/talk.jpg);
+margin-right:10px;
+}
+.instagram-box:nth-child(6) {
+background-image: url(img/webcamp-mother.png);
+}
+.main3{
+    width:100%;
+    height:650px;
+    text-align:center;
+    background-color:white;
+}
+.feature{
+    width:920px;
+    margin:0 auto;
+    text-align:center;
+}
+.feature h1{
+    padding-top:90px;
+    padding-bottom:8px;
+    font-size:32px;
+    color:#000000;
+    display: inline-block;
+    position:relative;
+}
+.feature h1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:0px;/*線の上下位置*/
+    display: inline-block;
+    width: 70px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color:#EC715F;/*線の色*/
+}
+.feature p{
+    margin-top:30px;
+    font-size:16px;
+    color:#000000;
+    margin-bottom:20px;
+}
+.feature2{
+    width:980px;
+    margin:0 auto;
+}
+.feature-box {
+    float: left;
+    width: 320px;
+    height:250px;
+    margin-top:10px;
+    padding-bottom:90px;
+}
+.feature-box i{
+    font-size:60px;
+}
+.feature-box h1{
+    font-size:20px;
+    color:#000000;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.feature-box:nth-child(1) {
+margin-right:10px;
+}
+.feature-box:nth-child(2) {
+margin-right:10px;
+}
+.main4{
+    width:100%;
+    height:650px;
+    background-color:#ECEFF1;
+}
+.profile{
+    width:1024px;
+    margin:0 auto;
+    text-align:center;
+}
+.profile h1{
+    padding-top:90px;
+    padding-bottom:8px;
+    font-size:32px;
+    color:#000000;
+    display: inline-block;
+    position:relative;
+}
+.profile h1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:0px;/*線の上下位置*/
+    display: inline-block;
+    width: 70px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color:#EC715F;/*線の色*/
+}
+.profile p{
+    margin-top:30px;
+    font-size:16px;
+    color:#000000;
+    margin-bottom:10px;
+}
+.profile2{
+    width:1024px;
+    margin:0 auto;
+}
+.profile-logo{
+    width:512px;
+    float:left;
+}
+.logo{
+    width:250px;
+    height:250px;
+    margin-top:20px;
+    border-radius:50%;
+    margin-left:150px;
+}
+.profile-contents{
+    width:512px;
+    float:left;
+    margin-bottom:90px;
+}
+.profile-contents h1{
+    margin-top:20px;
+    margin-bottom:5px;
+    font-size:20px;
+    color:#000000;
+}
+.profile-contents p{
+    font-size:16px;
+    color:#000000;
+}
+.main5{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+.contact{
+    width:800px;
+    margin:0 auto;
+    text-align:center;
+}
+.contact h1{
+    padding-top:90px;
+    padding-bottom:8px;
+    font-size:32px;
+    color:#000000;
+    display: inline-block;
+    position:relative;
+}
+.contact h1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:0px;/*線の上下位置*/
+    display: inline-block;
+    width: 70px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color:#EC715F;/*線の色*/
+}
+.contact p{
+    margin-top:30px;
+    font-size:16px;
+    color:#000000;
+    margin-bottom:10px;
+}
+.contact2{
+    width:800px;
+    margin:0 auto;
+}
+.form{
+    width:400px;
+    margin-top:30px;
+    margin-bottom:90px;
+    float:left;
+}
+.form h1{
+    font-size:20px;
+    margin-bottom:5px;
+    padding-left:150px;
+}
+.form p{
+    margin-bottom:20px;
+    padding-left:150px;
+}
+.icon h1{
+    font-size:20px;
+}
+.icon{
+    float:left;
+    font-size:50px;
+    margin-left:50px;
+    margin-top:30px;
+}
+.icon i{
+    margin-right:20px;
+
+}
+footer{
+    width:100%;
+    height:60px;
+    text-align:center;
+    background-color:#EC715F;
+}
+footer p{
+    line-height: 60px;
+    font-size:16px;
+    color:#FAFAFA
+}
+@media screen and (max-width:767px){
+    header{
+        height:50px;
+    }
+    .header-contents{
+        width:100%;
+        margin:0 auto;
+        padding-right:5%;
+        padding-left:5%;
+    }
+    .header-logo{
+        height:50px;
+        width:130px;
+    }
+    .nav-bar{
+        display:none;
+    }
+    .menu-box {
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin-right: 5%;
+        border: 1px solid #FAFAFA;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .list-bar:first-child {
+        margin-top: 10px;
+    }
+    .list-bar {
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 5px auto;
+        background-color: #FAFAFA;
+    }
+    .main-visual{
+        background-image:url(img/code.png);
+    }
+    .main-visual-contents h1{
+        font-size:40px;
+    }
+    .main-visual-contents p{
+        font-size:18px;
+    }
+    .portfolio{
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .instagram-box:nth-child(odd) {
+        display:none;
+    }
+    .instagram-box:nth-child(6){
+        margin-right: 2%;
+    }
+    .instagram-box{
+        float:none;
+        margin-bottom:10px;
+        display: inline-block;
+    
+    }
+    .feature{
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .feature-box i{
+        margin-top:10px;
+
+    }
+    .feature2{
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom:90px;
+    }
+    .feature-box{
+        float:none;
+        width:100%;
+        height:auto;
+        padding-bottom:10px;
+    }
+    .feature-box p{
+        display:inline-block;
+    }
+    .main3{
+        height:auto;
+    }
+    .main4{
+        height:auto;
+    }
+    .profile{
+        width:100%;
+        padding-right:5%;
+        padding-left:5%;
+    }
+    .profile2{
+        width:100%;
+        text-align:center;
+    }
+    .profile-logo{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    .profile-logo p{
+        text-align:center;
+    }
+    .logo{
+        text-align:center;
+        margin:0px;
+    }
+    .profile-contents{
+        float:none;
+        width:100%;
+    }
+    .contact{
+        width:100%;
+        padding-right:5%;
+        padding-left:5%;
+    }
+    .contact2{
+        width:100%;
+        text-align:center;
+        margin-bottom:90px;
+    }
+    .form{
+        width:100%;
+        float:none;
+        margin:0px;
+    }
+    .form h1{
+        padding:0px;
+        margin-top:20px;
+    }
+    .form p{
+        padding:0px;
+    }
+    .icon{
+        float:none;
+        margin:0px;
+        
+    }
+    .icon i{
+        margin-right:8px;
+        margin-top:8px;
+    }
+}
