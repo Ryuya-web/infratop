@@ -37,7 +37,13 @@ header{
     font-size:16px;
     color:#FAFAFA;
 }
-.main-visual{
+.nav-list li a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+#main-visual{
     width:100%;
     height: 650px;
     text-align:center;
@@ -61,12 +67,12 @@ header{
     height:auto;
     background-color:#ECEFF1;
 }
-.portfolio{
+#portfolio{
     width:920px;
     margin:0 auto;
     text-align:center;
 }
-.portfolio h1{
+#portfolio h1{
     padding-top:90px;
     padding-bottom:8px;
     font-size:32px;
@@ -74,7 +80,7 @@ header{
     display: inline-block;
     position:relative;
 }
-.portfolio h1:before {
+#portfolio h1:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -86,7 +92,7 @@ header{
     transform: translateX(-50%);/*位置調整*/
     background-color:#EC715F;/*線の色*/
   }
-.portfolio p{
+#portfolio p{
     margin-top:30px;
     font-size:16px;
     color:#000000;
@@ -133,12 +139,12 @@ background-image: url(img/webcamp-mother.png);
     text-align:center;
     background-color:white;
 }
-.feature{
+#feature{
     width:920px;
     margin:0 auto;
     text-align:center;
 }
-.feature h1{
+#feature h1{
     padding-top:90px;
     padding-bottom:8px;
     font-size:32px;
@@ -146,7 +152,7 @@ background-image: url(img/webcamp-mother.png);
     display: inline-block;
     position:relative;
 }
-.feature h1:before {
+#feature h1:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -158,7 +164,7 @@ background-image: url(img/webcamp-mother.png);
     transform: translateX(-50%);/*位置調整*/
     background-color:#EC715F;/*線の色*/
 }
-.feature p{
+#feature p{
     margin-top:30px;
     font-size:16px;
     color:#000000;
@@ -195,12 +201,12 @@ margin-right:10px;
     height:650px;
     background-color:#ECEFF1;
 }
-.profile{
+#profile{
     width:1024px;
     margin:0 auto;
     text-align:center;
 }
-.profile h1{
+#profile h1{
     padding-top:90px;
     padding-bottom:8px;
     font-size:32px;
@@ -208,7 +214,7 @@ margin-right:10px;
     display: inline-block;
     position:relative;
 }
-.profile h1:before {
+#profile h1:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -220,7 +226,7 @@ margin-right:10px;
     transform: translateX(-50%);/*位置調整*/
     background-color:#EC715F;/*線の色*/
 }
-.profile p{
+#profile p{
     margin-top:30px;
     font-size:16px;
     color:#000000;
@@ -261,12 +267,12 @@ margin-right:10px;
     height:auto;
     background-color:white;
 }
-.contact{
+#contact{
     width:800px;
     margin:0 auto;
     text-align:center;
 }
-.contact h1{
+#contact h1{
     padding-top:90px;
     padding-bottom:8px;
     font-size:32px;
@@ -274,7 +280,7 @@ margin-right:10px;
     display: inline-block;
     position:relative;
 }
-.contact h1:before {
+#contact h1:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -286,7 +292,7 @@ margin-right:10px;
     transform: translateX(-50%);/*位置調整*/
     background-color:#EC715F;/*線の色*/
 }
-.contact p{
+#contact p{
     margin-top:30px;
     font-size:16px;
     color:#000000;
@@ -371,7 +377,7 @@ footer p{
         margin: 5px auto;
         background-color: #FAFAFA;
     }
-    .main-visual{
+    #main-visual{
         background-image:url(img/code.png);
     }
     .main-visual-contents h1{
@@ -380,7 +386,7 @@ footer p{
     .main-visual-contents p{
         font-size:18px;
     }
-    .portfolio{
+    #portfolio{
         width:100%;
         padding-left:5%;
         padding-right:5%;
@@ -397,7 +403,7 @@ footer p{
         display: inline-block;
     
     }
-    .feature{
+    #feature{
         width:100%;
         padding-left:5%;
         padding-right:5%;
@@ -427,7 +433,7 @@ footer p{
     .main4{
         height:auto;
     }
-    .profile{
+    #profile{
         width:100%;
         padding-right:5%;
         padding-left:5%;
@@ -452,7 +458,7 @@ footer p{
         float:none;
         width:100%;
     }
-    .contact{
+    #contact{
         width:100%;
         padding-right:5%;
         padding-left:5%;
