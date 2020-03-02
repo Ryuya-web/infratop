@@ -29,6 +29,10 @@ header{
 }
 .nav-bar{
     float:right;
+    color:#FAFAFA;
+}
+.nav-list a{
+    color:#FAFAFA;
 }
 .nav-list{
     display:inline-block;
@@ -39,9 +43,11 @@ header{
 }
 .nav-list li a{
     text-decoration:none;
+    color:#FAFAFA;
 }
 ul{
     list-style:none;
+    color:#FAFAFA;
 }
 #main-visual{
     width:100%;
